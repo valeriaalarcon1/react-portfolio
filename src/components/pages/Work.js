@@ -1,9 +1,13 @@
 import React from 'react';
+import Project from './Project';
 
-export default function Work() {
+function Work() {
   return (
-    <div>
-      <h2>Work page</h2>
+    <div className="container">
+      <h1>Work</h1>
+      <Project></Project>
     </div>
   );
 }
+
+export default Work;

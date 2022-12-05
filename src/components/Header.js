@@ -1,9 +1,13 @@
 import React from 'react';
+import Nav from './Navbar';
 
 function Header() {
-    <header>
-        <h1>Valeria Alarcon</h1>
+  return (
+    <header className="header">
+      <h1>Valeria Alarcon</h1>
+      <Nav></Nav>
     </header>
-};
+  );
+}
 
 export default Header;
