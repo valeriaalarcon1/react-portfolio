@@ -1,15 +1,15 @@
 // imports
 import React, { useState } from 'react';
-import Header from './Header';
 import Navbar from './Navbar';
-import Footer from './Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
 
-// ProjectContainer function export
-export default function ProjectContainer() {
+
+
+// Project function export
+export default function Project() {
   const [currentPage, setCurrentPage] = useState('Home');
 
   // renderPage to render correct page user is on
@@ -32,11 +32,8 @@ export default function ProjectContainer() {
   // app layout
   return (
     <div>
-      <Header>
-        <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-      </Header>
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange}/>
       {renderPage()}
-      <Footer/>
     </div>
   );
 }
