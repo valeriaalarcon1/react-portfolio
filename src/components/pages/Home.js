@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div style={styles.section}>
       <h2 style={styles.header}>Welcome</h2>
-      <p style={styles.text}>Hello</p>
+      <p style={styles.text}></p>
     </div>
   );
 }

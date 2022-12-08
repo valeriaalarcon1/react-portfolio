@@ -4,14 +4,16 @@ import Project from './Project';
 
 const styles = {
   page: {
-    margin: '45px',
-    textAlign: 'center',
+    margin: '100px',
   },
   title: {
+    textAlign: 'center',
     fontWeight: '200',
+    fontSize: '65pt',
+    color: 'gray',
   },
   text: {
-
+    textAlign: 'center',
   }
 }
 

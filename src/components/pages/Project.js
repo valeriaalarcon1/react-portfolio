@@ -18,23 +18,21 @@ function Project() {
       <div className="projects" style={styles.section}>
         <div className="item" style={styles.projects}>
           <a href="https://www.github.com/valeriaalarcon1/">
-            <img src="../images/projects/project1.jpg" alt="Project1"/>
+          <img src="" alt="AlphaHub"/>
           </a>
           <a href="https://www.github.com/valeriaalarcon1/">
-            <img src="../images/projects/project2.jpg" alt="Project2"/>
+            <img src="" alt="Project2"/>
           </a>
           <a href="https://www.github.com/valeriaalarcon1/">
-            <img src="../images/projects/project3.jpg" alt="Project3"/>
+            <img src="" alt="Project3"/>
           </a>
           <a href="https://www.github.com/valeriaalarcon1/">
-            <img src="../images/projects/project4.jpg" alt="Project4"/>
+            <img src="" alt="Project4"/>
           </a>
         </div>
       </div>
     </div>
   );
-}
-
-// how to hanle a tags and butting tags
+};
 
 export default Project;

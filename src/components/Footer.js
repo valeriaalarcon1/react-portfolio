@@ -12,7 +12,7 @@ const styles = {
 function Footer() {
 return (
     <footer className="footer" style={styles.footer}>
-        <p>Footer</p>
+        <p>Created using React</p>
     </footer>
 );
 }
