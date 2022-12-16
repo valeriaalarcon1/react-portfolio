@@ -1,4 +1,5 @@
 import React from 'react';
+import './Project.css';
 
 const styles = {
   section: {
@@ -8,7 +9,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-evenly',
-  },
+  }
 }
 
 
@@ -17,17 +18,11 @@ function Project() {
     <div className="container">
       <div className="projects" style={styles.section}>
         <div className="item" style={styles.projects}>
-          <a href="https://www.github.com/valeriaalarcon1/">
-          <img src="" alt="AlphaHub"/>
+          <a href="https://www.github.com/valeriaalarcon1/alpha-hub">
+            AlphaHub
           </a>
-          <a href="https://www.github.com/valeriaalarcon1/">
-            <img src="" alt="Project2"/>
-          </a>
-          <a href="https://www.github.com/valeriaalarcon1/">
-            <img src="" alt="Project3"/>
-          </a>
-          <a href="https://www.github.com/valeriaalarcon1/">
-            <img src="" alt="Project4"/>
+          <a href="https://nameless-falls-66947.herokuapp.com/">
+            TravelX
           </a>
         </div>
       </div>
